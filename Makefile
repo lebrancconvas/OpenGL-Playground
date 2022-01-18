@@ -1,0 +1,2 @@
+run:
+	g++ -std=c++17 -g main.cpp -I /opt/homebrew/Cellar/glew/2.2.0_1/include -I /opt/homebrew/Cellar/glfw/3.3.6/include -I /opt/homebrew/Cellar/glm/0.9.9.8/include -L /opt/homebrew/Cellar/glew/2.2.0_1/lib -L /opt/homebrew/Cellar/glfw/3.3.6/lib -l glew -l glfw -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo -o main && ./main
